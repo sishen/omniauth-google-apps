@@ -7,7 +7,7 @@ module OpenID
   # we need to monkeypatch it to make it play nicely
   # with others.
   def self.discover(uri)
-    raise OpenID::DiscoveryFailure.new("No URL Provided", 200) if uri.nil?
+    raise OpenID::DiscoveryFailure.new("No URL Provided", 422) if uri.nil?
 
     begin
       discovered = self.default_discover(uri)
