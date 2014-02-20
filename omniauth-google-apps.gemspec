@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'omniauth', '~> 1.0'
   s.add_dependency 'omniauth-openid', '~> 1.0'
   s.add_dependency 'ruby-openid-apps-discovery', '~> 1.2.0'
+  s.add_dependency 'ruby-openid', "~> 2.3.0"
   s.add_development_dependency 'rspec', '~> 2.7'
   s.add_development_dependency 'rack-test'
   s.add_development_dependency 'simplecov'
