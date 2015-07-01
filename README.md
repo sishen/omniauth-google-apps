@@ -1,6 +1,6 @@
 # Notice.
 
-Google will drop OpenID2 support since April 20th, 2015. So this gem is deprecated and no longer being maintained. Please use [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2) instread.
+:warning:  Google has dropped OpenID2 support since April 20th, 2015. Therefore **this gem is DEPRECATED** and no longer being maintained. Please use [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2) instead. :warning: 
 
 # OmniAuth Google Apps
 
